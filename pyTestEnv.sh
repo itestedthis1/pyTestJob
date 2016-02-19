@@ -4,6 +4,6 @@ fi
 . pyEnvJenkins/bin/activate
 pip install -r requirements.txt 
 
-py.test testfile.py
+py.test --html=report.html testfile.py
 
 deactivate
