@@ -12,6 +12,6 @@ def test_1Neg_numbers_3_4():
     
 def test_BothNeg_numbers_3_4():
     assert multiply(-3,-4) == 12 
- 
- def test_0numbers_3_4():
+
+def test_0numbers_3_4():
     assert multiply(3,0) == 0 
