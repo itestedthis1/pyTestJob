@@ -28,11 +28,11 @@ def setup_function(function):
 def teardown_function(function):
     print ("teardown_function function:%s" % function.__name__)
  
-def test_numbers_3_4():
+def test_numbers_4_4():
     print ('test_numbers_4_4  <============================ actual test code')
     assert multiply(4,4) == 16 
  
-def test_strings_a_3():
+def test_strings_a_6():
     print ('test_strings_a_6  <============================ actual test code')
     assert multiply('a',6) == 'aaaaaa' 
  
