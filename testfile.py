@@ -29,12 +29,12 @@ def teardown_function(function):
     print ("teardown_function function:%s" % function.__name__)
  
 def test_numbers_3_4():
-    print ('test_numbers_3_4  <============================ actual test code')
-    assert multiply(3,4) == 12 
+    print ('test_numbers_4_4  <============================ actual test code')
+    assert multiply(4,4) == 16 
  
 def test_strings_a_3():
-    print ('test_strings_a_3  <============================ actual test code')
-    assert multiply('a',3) == 'aaa' 
+    print ('test_strings_a_6  <============================ actual test code')
+    assert multiply('a',6) == 'aaaaaa' 
  
  
 class TestUM:
