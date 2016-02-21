@@ -8,6 +8,6 @@ pip install -r requirements.txt
 py.test  --html=report.html testfile.py
 
 pep8 calc.py > pep8.log || true
-pyflakes calc.py > pyflakes.log || true
+pylint calc.py > pylint.log || true
 
 deactivate
