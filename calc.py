@@ -15,5 +15,3 @@ def multiply(a, b):
     'aaa'
     """
     return a * b
- 
-
