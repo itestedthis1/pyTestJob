@@ -4,6 +4,7 @@ fi
 . pyEnvJenkins/bin/activate
 pip install -r requirements.txt 
 
+rm -f pep8.log pyflakes.log
 
 py.test --junitxml=reports/result.xml --html=reports/report.html testfile.py
 
