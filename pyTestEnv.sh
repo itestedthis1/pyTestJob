@@ -8,7 +8,7 @@ rm -f pep8.log pyflakes.log
 
 py.test --junitxml=reports/result.xml --html=reports/report.html testfile.py
 
-pep8 calc.py > pep8.log || true
-pylint calc.py > pylint.log || true
+pep8 calc.py > pep8A.log || true
+pyflakes calc.py > pyflakesA.log || true
 
 deactivate
